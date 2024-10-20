@@ -23,5 +23,5 @@ async fn main() {
 
     let route = root.or(unknown);
 
-    warp::serve(route).run(([0, 0, 0, 0], 3030)).await;
+    warp::serve(route).run(([0, 0, 0, 0], 80)).await;
 }
